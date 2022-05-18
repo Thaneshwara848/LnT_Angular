@@ -1,0 +1,17 @@
+h1{
+    color: blue;
+}
+h2{
+    color: red;
+}
+.mydiv{
+     text-align: center;
+}
+.mynav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    
+   
+}

@@ -1,0 +1,65 @@
+<h3> Costum Pipw </h3>
+Square  {{ 5 | sqr  }}<br>
+Square  {{ 10 | sqr  }}<br>
+Square  {{ 15 | sqr  }}<br>
+Square  {{ 25 | sqr  }}<br>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3> {{name }}</h3>
+<h3> {{name | uppercase}}</h3>
+<h3> {{name | lowercase}}</h3>
+<hr>
+<h4>{{amount}}</h4>
+<h4>{{amount | currency }}</h4>
+<h4>{{amount | currency: 'JPY' }}</h4>
+<h4>{{amount | currency: 'INR' }}</h4>
+<h4>{{amount | currency: 'EUR' }}</h4>
+
+<hr>
+<h4>{{date}}</h4>
+<h4>{{date | date :'fullDate'}}</h4>
+<h4>{{date | date :'dd/MM/yyyy'}}</h4>
+<h4>{{date | date :'MM/dd/yyyy'}}</h4>
+<h4>{{date | date :'MM/dd/yy'}}</h4>
+
+<h4>{{date | date :'MM/dd/yy hh:mm:ss'}}</h4>
+<hr> 
+{{person}}<br>
+{{person |json }} 
+<!-- javascript object Notation  -->
+<hr>
+
+{{date | date:"fullDate" | uppercase | slice : 0 : 20}}

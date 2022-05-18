@@ -1,0 +1,26 @@
+
+
+
+
+
+P :<input type="text" #prince ><br>
+T :<input type="text" #time ><br>
+
+<select (change)="myloan($event)">
+    <option value="edu">EDU </option>
+    <option value="car">CAR </option>
+    <option value="home">HOME </option>
+   </select><br> 
+Rate  :<input type="text"  value={{roi}} disabled ><br>
+
+
+Loan Type : 
+
+<br> 
+
+EMI :<input type="text" value={{emi}}>
+<br> 
+<input type="submit" value="EMI CALC" (click)="emical(prince.value,time.value)">
+
+
+

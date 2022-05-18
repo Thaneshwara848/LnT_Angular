@@ -1,0 +1,29 @@
+<div>
+    <input type="submit" value="Add Cart" [disabled]="mybtndisabled" (click)="increment1()">
+    <input type="submit" value="Decrement " (click)="Decerement1()">
+</div>
+{{i}}
+
+
+<hr>
+<img [src]="myimg" alt="Image not found...!" height="40%" width="40%">
+<hr>
+
+<div class="myinput">
+    A :<input type="text" name="a" #aval><br>
+    B:<input type="text" name="b" #bval><br>
+    Result : <input type="text" value={{res}}> <br> <br> 
+
+    <input type="submit" value="ADD" (click)="add(aval.value, bval.value)">
+    <input type="submit" value="SUB " (click)="sub(aval.value,bval.value)"> 
+    <input type="submit" value="MUL " (click)="mul(aval.value,bval.value)">
+    <input type="submit" value="DIV " (click)="div(aval.value,bval.value)">
+</div>
+
+<hr>
+Search :<input type="text"  [(ngModel)]="Fullname">
+
+<br> 
+
+{{Fullname}}
+
