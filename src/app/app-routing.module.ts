@@ -14,8 +14,16 @@ import { CarComponent } from './loan/car/car.component';
 import { EduComponent } from './loan/edu/edu.component';
 import { HomeComponent } from './loan/home/home.component';
 import { DatabindingComponent } from './databinding/databinding.component';
+import { LifecyclehookComponent } from './lifecyclehook/lifecyclehook.component';
+import { Lifecyclehook1Component } from './lifecyclehook1/lifecyclehook1.component';
 
 const routes: Routes = [
+  {
+    path:'lch',component:LifecyclehookComponent
+  },
+  {
+    path:'lch1', component:Lifecyclehook1Component
+  },
   {
     path:'reg',
     component:RegisterComponent

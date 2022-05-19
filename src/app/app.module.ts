@@ -32,6 +32,8 @@ import { RDFComponent } from './rdf/rdf.component';
 import { TDF2Component } from './tdf2/tdf2.component';
 import { RDF2Component } from './rdf2/rdf2.component'
 import { ReactiveFormsModule } from '@angular/forms';
+import { LifecyclehookComponent } from './lifecyclehook/lifecyclehook.component';
+import { Lifecyclehook1Component } from './lifecyclehook1/lifecyclehook1.component';
 
 @NgModule({
   declarations: [
@@ -63,6 +65,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     RDFComponent,
     TDF2Component,
     RDF2Component,
+    LifecyclehookComponent,
+    Lifecyclehook1Component,
   ],
   imports: [
     BrowserModule,
