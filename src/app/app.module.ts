@@ -26,7 +26,12 @@ import { Db2Component } from './db2/db2.component';
 import { Db3Component } from './db3/db3.component';
 import { SeethaComponent } from './seetha/seetha.component';
 import { RamaComponent } from './rama/rama.component';
-import { RavanaComponent } from './ravana/ravana.component'
+import { RavanaComponent } from './ravana/ravana.component';
+import { TDFComponent } from './tdf/tdf.component';
+import { RDFComponent } from './rdf/rdf.component';
+import { TDF2Component } from './tdf2/tdf2.component';
+import { RDF2Component } from './rdf2/rdf2.component'
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -54,11 +59,16 @@ import { RavanaComponent } from './ravana/ravana.component'
     SeethaComponent,
     RamaComponent,
     RavanaComponent,
+    TDFComponent,
+    RDFComponent,
+    TDF2Component,
+    RDF2Component,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
